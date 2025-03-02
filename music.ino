@@ -117,46 +117,47 @@ void loop() {
 
 
 int style_melody[] = {
+  // instrumentals
   NOTE_FS3, NOTE_B3, NOTE_D4, NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_B3,NOTE_B3,NOTE_B3,0,NOTE_B3,NOTE_D4,NOTE_D4,NOTE_B3,NOTE_B3,0,NOTE_B3,NOTE_B3,NOTE_B3,NOTE_B3,NOTE_B3, 
   // repeat!
   NOTE_FS3,NOTE_B3,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_B3,NOTE_B3,NOTE_B3,0,NOTE_B3,NOTE_D4,NOTE_D4,NOTE_B3,NOTE_B3,0, 
-  // actual lyric part
+  // verse 1 starts! 
+  // lyrics: "midnight, you come and pick me up no headlights"
   NOTE_E4,NOTE_FS4,NOTE_FS4,0,NOTE_D4,NOTE_E4,NOTE_FS4,0,NOTE_FS4,NOTE_E4,NOTE_E4,0,NOTE_D4,NOTE_E4,NOTE_FS4,NOTE_FS4,0,NOTE_B3,NOTE_CS4,NOTE_E4,0,NOTE_A3,NOTE_B3,NOTE_D4,0, 
-  // and then repeatttt
+  // "long drive, could end in burning flames or paradise"
   NOTE_E4,NOTE_FS4,NOTE_FS4,0,NOTE_D4,NOTE_E4,NOTE_FS4,0,NOTE_FS4,NOTE_E4,NOTE_E4,0,NOTE_D4,NOTE_E4,NOTE_FS4,NOTE_FS4,0,NOTE_B3,NOTE_CS4,NOTE_E4,0,NOTE_A3,NOTE_B3,NOTE_D4,0, 
-  // next part woohoo
+  // "fade into view, oh"
   NOTE_D4,NOTE_D4,NOTE_A4,NOTE_A4,NOTE_FS4,NOTE_E4,0,NOTE_A4, 
-  // after oh
+  // "it's been a while since i have even heard from you"
   0,NOTE_A4,NOTE_A4,0,NOTE_G4,NOTE_G4,0,NOTE_FS4,NOTE_FS4,0,NOTE_E4,NOTE_E4,0,NOTE_D4,NOTE_E4,NOTE_FS4,NOTE_FS4,0,NOTE_D4,NOTE_E4,NOTE_FS4,NOTE_FS4,0, 
-  // and i should just tell u to leave cus i
+  // pre chorus starts
+  // "and i should just tell you to leave cause i"
   NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_B3,NOTE_E4,NOTE_B3,NOTE_B3,0, 
-  // know exactly where it leads but i
+  // "know exactly where it leads but i"
   NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_D4,NOTE_B3,NOTE_E4,NOTE_B3,NOTE_B3,0, 
-  // watch us go round and round each time
+  // "watch us go round and round each time"
   NOTE_B3,NOTE_B3,NOTE_D4,NOTE_D4,NOTE_B3,NOTE_D4,NOTE_B3,NOTE_D4,0,NOTE_E4,NOTE_FS4,NOTE_A4,NOTE_A4,0, 
-  // you got that james dean daydream look in ur eye
+  // chorus starts
+  // "you got that james dean daydream look in your eye"
   NOTE_FS4,NOTE_E4,NOTE_D4,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_FS4,NOTE_E4,NOTE_A4,0, 
-  // and i got that red lip classic thing that u like
+  // "and i got that red lip classic thing that you like"
   NOTE_FS4,NOTE_E4,NOTE_D4,NOTE_B3,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_FS4,NOTE_E4,NOTE_A4,0,
-  // and when we go crashing downnnnn
+  // "and when we go crashing down we come back every time"
   NOTE_FS4,NOTE_E4,NOTE_D4,NOTE_B3,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_D4,NOTE_E4,NOTE_FS4,NOTE_E4,NOTE_A4, 0, 
-  // we never go out of styleeee 
+  // "we never go out of style, we never go out of style"
   NOTE_FS4,NOTE_E4,NOTE_D4,NOTE_B3,NOTE_E4,NOTE_E4,NOTE_E4,NOTE_FS4,NOTE_E4,NOTE_D4,NOTE_B3,NOTE_D5,NOTE_D5,NOTE_D5, 
 };
 
 
 int style_note_durations[] = {
   8,8,4,4,4,4,8,4,8,8,8,8,8,4,4,8,8,8,4,4,8,8,8,8,8,4,4,4,4,8,4,8,8,8,8,8,4,4,8,8,4,
-  // lyric part!!
   4,8,2,4,8,8,8,8,4,8,8,8,4,4,8,2,4,8,8,2,8,8,8,2,4,
-  // repeat!
   4,8,2,4,8,8,8,8,4,8,8,8,4,4,8,2,4,8,8,2,8,8,8,2,4,
-  // next part 
   8,8,4,4,4,4,
-  8, 8, 8,// oh! 
+  8, 8, 8,
   8,4,8,8,4,8,8,4,8,8,4,8,4,4,8,2,
   8,4,4,8,2,
-  4, // pause
+  4, 
   8,8,8,8,8,8,4,8,4,4,
   8,8,8,8,8,8,4,8,4,4,
   8,8,4,4,8,4,4,4,8,
